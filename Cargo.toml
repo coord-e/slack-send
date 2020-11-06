@@ -1,0 +1,12 @@
+[package]
+name = "slack-send"
+version = "0.1.0"
+authors = ["coord.e <me@coord-e.com>"]
+edition = "2018"
+
+[dependencies]
+structopt = "0.3"
+anyhow = "1.0"
+reqwest = { version = "0.10", features = ["blocking", "json"] }
+thiserror = "1.0"
+serde_json = "1.0"
