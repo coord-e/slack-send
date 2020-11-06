@@ -9,7 +9,7 @@
 
 ```shell
 # supply content from the argument
-$ slack-send -w <HOOK_URL> -c "Hello!"
+$ slack-send -w <HOOK_URL> -c 'Hello!'
 
 # supply content from stdin
 $ cat content.txt | slack-send -w <HOOK_URL>
