@@ -3,6 +3,11 @@ name = "slack-send"
 version = "0.1.0"
 authors = ["coord.e <me@coord-e.com>"]
 edition = "2018"
+repository = "https://github.com/coord-e/slack-send.git"
+homepage = "https://github.com/coord-e/slack-send"
+description = "Sends message to Slack via webhook"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 structopt = "0.3"
